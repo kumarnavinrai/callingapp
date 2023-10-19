@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Charge Guard</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Hello I am Navin Kumar working at ABC abnk.
+    </string>
+    <string-array name="on_off_options">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string name="select_date_prompt">Select a date...</string>
+    <!-- You can define more resources here -->
+    <string-array name="spinner_entries">
+        <item>Select Date</item>
+        <item>Click here to open calander</item>
+    </string-array>
+</resources>

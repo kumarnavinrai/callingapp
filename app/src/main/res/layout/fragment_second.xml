@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/displayActionTImeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="18sp"
+                        android:text="Action set Aug 24 18:23 to ON"
+                        android:layout_marginTop="16dp" />
+                    <Spinner
+                        android:id="@+id/dateSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:prompt="@string/select_date_prompt" />
+
+
+
+<!--                    <CalendarView-->
+<!--                        android:id="@+id/calendarView"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/displayActionTImeTextView"-->
+<!--                        />-->
+
+
+                    <TimePicker
+                        android:id="@+id/timePicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:timePickerMode="spinner" />
+
+                        <TextView
+                            android:id="@+id/selectedDateTimeTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="18sp"
+                            android:layout_marginTop="16dp" />
+
+                        <Spinner
+                            android:id="@+id/alarmSelectSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp" />
+
+
+                        <Button
+                            android:id="@+id/setAlarmButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Set Action"
+                            android:textSize="18sp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp" />
+
+                        <Button
+                            android:id="@+id/stopAlarmButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stop Alarm"
+                            android:textSize="18sp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="16dp" />
+
+<!--                    <Button-->
+<!--                        android:id="@+id/checkAlarmButton"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Check Alarm"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginTop="16dp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/onceAlarmButton"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Schdule Alarm"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginTop="16dp" />-->
+
+                </LinearLayout>
+        </ScrollView>
+
